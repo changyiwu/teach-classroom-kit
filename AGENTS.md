@@ -63,6 +63,7 @@ teach-classroom-kit/
 - 所有使用者回應、程式碼註解、說明文件與 Obsidian 專案紀錄使用繁體中文（zh-TW）
 - 涉及檔案操作時回報完整產出位置；Windows 指令優先使用 PowerShell
 - 提交前檢查 staged diff，避免把其他工作或敏感資料一起納入
+- **產出一律放 `output/`**：本專案產生的檔案或資料夾（成品、匯出、報表、生成圖、渲染等）預設放專案根目錄的 `output/`，不另開 `outputs/`、`exports/`、`generated/`、`out/` 之類的資料夾，方便找；`output/` 不進 git。部署工具指定的建置目錄（`dist/`、`build/`）不在此限
 
 ## 認證與資安規範
 
