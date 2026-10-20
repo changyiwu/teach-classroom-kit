@@ -1,4 +1,4 @@
-# classroom-agent-kit（專案藍圖）
+# teach-classroom-kit（專案藍圖）
 
 > 本檔為跨 Agent 通用的專案藍圖（AGENTS.md 開放標準）。任何 Agent 的每個 session 都應先讀本檔＋`handoff.md`。
 
@@ -20,7 +20,7 @@
 ## 資料夾結構
 
 ```
-classroom-agent-kit/
+teach-classroom-kit/
 ├─ index.html            # ClassBuddy 網頁入口
 ├─ app.js                # 網頁端邏輯
 ├─ style.css             # Fredoka／Outfit 字型的課堂風格樣式
@@ -41,8 +41,8 @@ classroom-agent-kit/
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | https://github.com/changyiwu/classroom-agent-kit （公開） | 指定時 |
-| L3 | Obsidian | `classroom-agent-kit/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | https://github.com/changyiwu/teach-classroom-kit （公開） | 指定時 |
+| L3 | Obsidian | `teach-classroom-kit/專案工作流程.md` | 有需要時 |
 
 ## 三個檔案的職責（依「時效性」分家，不是依「詳細程度」）
 
